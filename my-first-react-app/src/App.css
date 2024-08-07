@@ -240,3 +240,75 @@ html {
 #texty {
     text-wrap: wrap;
 }
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .about-all {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-left,
+    .imgtwo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tech-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-container ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    .tech-container li {
+        margin-bottom: 10px;
+    }
+
+    .projs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .project-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-button a,
+    .project-button button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .landing {
+        text-align: center;
+    }
+
+    .landing-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing-button a,
+    .landing-button button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
