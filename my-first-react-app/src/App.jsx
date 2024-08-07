@@ -38,7 +38,7 @@ export default function App() {
                     <img src={photo} alt="Justin Pardo" />
                 </div>
                 <p className="intro">Hi, I'm Justin 👋</p>
-                <h2>SOFTWARE DEVELOPER</h2>
+                <h2 className="main-text">SOFTWARE DEVELOPER</h2>
                 <p id="texty">
                     Passionate developer who loves building systems that solve
                     real-world problems and diving deep into technology beyond
