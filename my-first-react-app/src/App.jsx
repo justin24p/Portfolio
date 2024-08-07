@@ -171,7 +171,9 @@ export default function App() {
                             <a href="https://github.com/justin24p/bank-app">
                                 <button>GitHub</button>
                             </a>
-                            <button>Live Demo</button>
+                            <a href="">
+                                <button>Live Demo</button>
+                            </a>
                         </div>
                     </div>
                     <div className="project">
@@ -215,7 +217,9 @@ export default function App() {
                             <a href="https://github.com/justin24p/Blog-Aggregator">
                                 <button>GitHub</button>
                             </a>
-                            <button>Live Demo</button>
+                            <a href="">
+                                <button>Live Demo</button>
+                            </a>
                         </div>
                     </div>
                 </div>
