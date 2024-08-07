@@ -39,11 +39,10 @@ export default function App() {
                 </div>
                 <p className="intro">Hi, I'm Justin 👋</p>
                 <h2>SOFTWARE DEVELOPER</h2>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Laudantium error rem a consequatur nihil consectetur eius,
-                    natus nulla. Praesentium culpa eveniet odit saepe doloribus
-                    ut obcaecati earum, molestiae placeat rerum!
+                <p id="texty">
+                    Passionate developer who loves building systems that solve
+                    real-world problems and diving deep into technology beyond
+                    the surface level.
                 </p>
                 <div className="landing-button">
                     <a href="https://github.com/justin24p">
@@ -66,12 +65,18 @@ export default function App() {
                         <div>
                             <h2>About</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Commodi modi assumenda
-                                delectus distinctio odio labore tenetur!
-                                Consectetur a voluptatem fugit illo eos magni,
-                                exercitationem maiores, amet adipisci cum alias
-                                aliquam?
+                                I have an ambition and desire to improve at
+                                every step, whether it be in school,
+                                programming, or the gym. This summer, I had the
+                                pleasure of being a research assistant at my
+                                university, even though I had no prior
+                                experience in machine learning. With enough
+                                effort, I was able to pick up the necessary
+                                tools to help my team train our object detection
+                                model. In my free time, you can find me
+                                exploring mathematics or learning about
+                                low-level computer topics such as compilers,
+                                kernels, and operating systems.
                             </p>
                             <h2>Technologies</h2>
                             <div className="tech-container">
@@ -142,11 +147,9 @@ export default function App() {
                 <div>
                     <h2>Projects</h2>
                     <p className="proj-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Blanditiis cum fugiat, dignissimos eveniet, nulla,
-                        veritatis possimus totam temporibus voluptas voluptatum
-                        deleniti! Quaerat incidunt sequi, velit tenetur odio
-                        atque facere delectus?
+                        Here are a few of my projects that demonstrate my
+                        ability to build user-friendly full-stack systems using
+                        a wide range of technologies.
                     </p>
                 </div>
                 <div className="projs">
@@ -156,14 +159,18 @@ export default function App() {
                         </div>
                         <h3>Bank</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Culpa doloribus odio repellendus temporibus,
-                            vero quod distinctio reprehenderit aperiam corrupti
-                            sunt deleniti beatae suscipit porro quia quasi
-                            accusamus, asperiores quisquam voluptas!
+                            Developed a bank account management system using
+                            Next.js and TypeScript, with Plaid API for
+                            transaction. Backend services were provided by
+                            Appwrite. Created custom React components for
+                            displaying transaction data and implemented
+                            session-based authentication with robust error
+                            handling.
                         </p>
                         <div className="project-button">
-                            <button>GitHub</button>
+                            <a href="https://github.com/justin24p/bank-app">
+                                <button>GitHub</button>
+                            </a>
                             <button>Live Demo</button>
                         </div>
                     </div>
@@ -174,15 +181,19 @@ export default function App() {
                         <img src="" alt="" />
                         <h3>Game Store</h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Nihil distinctio enim pariatur illum, amet,
-                            aliquam blanditiis ex accusamus reiciendis nulla
-                            culpa error quis. Quia at sequi laborum id voluptas
-                            eligendi?
+                            I built a game store with React, using React Router
+                            for routing and Context for global state management
+                            and data was fetched from RAWG Api via useEffect.
+                            The project was deployed on Vercel and utilized Vite
+                            for building completed by my own hands.
                         </p>
                         <div className="project-button">
-                            <button>GitHub</button>
-                            <button>Live Demo</button>
+                            <a href="https://github.com/justin24p/shopping-cart">
+                                <button>GitHub</button>
+                            </a>
+                            <a href="https://shopping-cart-a85lo67d2-justin24ps-projects.vercel.app/">
+                                <button>Live Demo</button>
+                            </a>
                         </div>
                     </div>
                     <div className="project">
@@ -192,15 +203,18 @@ export default function App() {
                         <img src="" alt="" />
                         <h3>Blog</h3>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Ipsa fuga veritatis ratione doloremque
-                            consectetur distinctio molestiae provident!
-                            Adipisci, beatae mollitia amet, neque iste eos
-                            quisquam praesentium, commodi incidunt voluptatem
-                            numquam!
+                            Developed a backend server in Go for managing RSS
+                            feeds, enabling users to add, follow, and unfollow
+                            feeds. Utilized PostgreSQL with Goose for database
+                            migrations and SQLC for type-safe interactions.
+                            Implemented secure access control with the chi
+                            router and robust error handling for unauthorized
+                            actions.
                         </p>
                         <div className="project-button">
-                            <button>GitHub</button>
+                            <a href="https://github.com/justin24p/Blog-Aggregator">
+                                <button>GitHub</button>
+                            </a>
                             <button>Live Demo</button>
                         </div>
                     </div>
