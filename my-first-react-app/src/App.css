@@ -1,0 +1,239 @@
+/* src/index.css */
+html {
+    scroll-behavior: smooth;
+}
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+#name {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.nav button {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img img {
+    width: 150px; /* Set the desired size */
+    height: 150px; /* Maintain the same height as the width */
+    object-fit: cover; /* Ensures the image covers the area */
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}
+.landing {
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.landing h2 {
+    font-size: 8rem;
+    font-weight: 900;
+    line-height: 0.9;
+    text-wrap: wrap;
+}
+.landing-button {
+    display: flex;
+    gap: 20px;
+}
+.landing-button button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+.landing .intro {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.landing p {
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.imgtwo {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid #ddd; /* Optional: Add border to see the container boundaries */
+    background-color: #f9f9f9; /* Optional: Background color for the container */
+}
+
+.imgtwo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.about {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.about-left {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.about h2 {
+    position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem; /* Adjust size as needed */
+}
+
+.about h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; /* Thickness of the line */
+    background-color: #333; /* Color of the line */
+}
+.tech-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0; /* Space between lists */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tech-container li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem; /* Increase the font size */
+    gap: 0.5rem; /* Space between icon and text */
+}
+
+.tech-container i {
+    font-size: 2rem; /* Increase the icon size */
+}
+
+.tech-container {
+    display: flex;
+    gap: 40px;
+    font-size: 1rem;
+}
+
+.projects {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.proj-info {
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 50px; /* Add space below the intro text */
+}
+
+.projs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 400px; /* Set consistent width */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    margin-bottom: 30px; /* Add space between project cards */
+    background-color: #fff; /* Add background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
+
+.project-img img {
+    width: 100%;
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    border-bottom: 1px solid black; /* Separate image from the content */
+}
+
+.project h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.project p {
+    padding: 0 20px 20px 20px;
+    font-size: 1rem;
+    color: #333; /* Slightly lighter text color */
+}
+
+.project-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.project-button button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-button button:hover {
+    background-color: #e0e0e0;
+}
+.button-nav {
+    color: white;
+}
+
+.button-nav button {
+    padding: 10px 20px 10px 20px;
+}
+.about-all {
+    display: flex;
+    text-align: center;
+    gap: 90px;
+}
+.learn-more-title {
+    font-size: 4rem; /* Same font size as .projects h2 */
+    font-weight: 900; /* Boldness */
+    text-align: center; /* Center align */
+}
